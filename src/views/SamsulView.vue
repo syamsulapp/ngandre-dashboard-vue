@@ -4,7 +4,10 @@
     <div>
         <ul v-for="products in product" :key="products.id">
             <li>{{ products.nama }} <br>
-                {{ products.imagesUrl }}</li>
+                {{ products.imagesUrl }}
+                {{ products.price }}
+                {{ products.created_at }}
+            </li>
         </ul>
     </div>
 </template>
